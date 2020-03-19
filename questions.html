@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbit Reasoning</title>
+    <link rel="icon" href="bunny.svg">
+    <link href='questions.css' rel='stylesheet' />
+    <script src='script.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="bunny.svg">
+</head>
+<body>
+    <div id='app'>
+        <div id='menu'>
+            <button class='menu-button' id='intro' onclick='goToTutorial()'>Introduction</button>
+            <button class='menu-button' id='inductive' onclick='goToInductive1()'>Questions</button>
+         </div>
+         <div id='paper'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+             <hr class='lines'>
+
+             <hr id='vertical'>
+
+            <div class='hole'></div>
+            <div class='hole' id='second'></div>
+            <div class='hole' id='third'></div>
+
+        </div>
+        <div id='header-health'>
+            <div id='what-is'>Inductive Reasoning</div>
+            <div id='deductive-title'>Deductive Reasoning</div>
+            <div id='bar-title'>Health Bar:</div>
+                
+            <div id='healthbar-container'>
+                <img id='health-bar' src='carrot.svg'>
+            </div>
+            <div id='healthbar-container5'>
+                <img id='health-bar5' src='carrot-5.svg'>
+            </div>
+            <div id='healthbar-container4'>
+                <img id='health-bar4' src='carrot-4.svg'>
+            </div>
+            <div id='healthbar-container3'>
+                <img id='health-bar3' src='carrot-3.svg'>
+            </div>
+            <div id='healthbar-container2'>
+                <img id='health-bar2' src='carrot-2.svg'>
+            </div>
+            <div id='healthbar-container1'>
+                <img id='health-bar1' src='carrot-1.svg'>
+            </div>
+            <div id='healthbar-container0'>
+                <img id='health-bar0' src='carrot-0.svg'>
+            </div>
+        </div>
+  
+        </div>
+        
+
+        <!-- INDUCTIVE QUESTION 1 -->
+        <div id='change-state1'>
+            <div id='behind-video'>
+                <div id='based-on'>Based on this pattern:</div>
+                <img id='pattern1' src='q1pattern.svg'>
+                <hr class='divider'>
+                <div id='what-is-the'>What is the missing shape to fill in the blank?</div>
+            </div>
+            <button id='square-choice' onclick='Correct1()'>
+                <img id='square' src='square.svg' onclick='Correct1()'>
+            </button>
+            <i id='check' class="material-icons">
+                check
+                </i>
+                
+            <button id='triangle-choice' onclick='Incorrect1()'>
+                <img id='triangle' src='triangle.svg' onclick='Incorrect1()'>
+            </button>
+            <i id='x' class="material-icons">
+                close
+                </i>
+
+            <img id='rabbit' src='bunny.svg'>
+            <img id='rabbit-good' src='bunny-correct.svg'>
+            <img id='rabbit-bad' src='bunny-incorrect.svg'>
+            <img id='chat-box' src='chat2.svg'>
+            <div id='correct-feedback'>
+                <p id='feedback1'>That's right! Based on the pattern you were given above, you can make a guess that a square goes in the blank since that matches the pattern.</p>
+            </div>
+            <div id='wrong-feedback'>
+                <p id='feedback2'>Uh oh! That's not quite right. Using the pattern you were given above, you can assume that a square goes in the blank to finish the pattern!</p>
+            </div>
+
+            <button id='next' onclick='goToInductiveQ2()'>Next Question<i class="material-icons" id='go-arrow'>
+                arrow_forward
+                </i></button>
+        </div>
+        <!-- END OF INDUCTIVE QUESTION 1 -->
+
+
+        <!-- INDUCTIVE QUESTION 2 -->
+        <div id='change-state2'>
+            <div id='behind-video2'>
+                <p id='a-bank'>A bank was robbed and only Bob and John were around the area. John needed money and was in the bank. Bob was outside and sleeping in his car.</p><br>
+
+                <hr class='divider'>
+
+                <div id='who-robbed'>Who robbed the bank?</div>
+            </div>
+
+        <button id='first-choice-behind' onclick='Incorrect2()'>
+            <p id='bob' onclick='Incorrect2()'>Bob</p>
+        </button>
+        <i id='x2' class="material-icons">
+            close
+            </i>
+        <button id='second-choice-behind' onclick='Correct2()'>
+            <p id='john' onclick='Correct2()'>John</p>
+        </button>
+        <i id='check2' class="material-icons">
+            check
+            </i>
+        
+        <img id='rabbit2' src='bunny.svg'>
+        <img id='rabbit2-good' src='bunny-correct.svg'>
+        <img id='rabbit2-bad' src='bunny-incorrect.svg'>
+        <img id='chat2' src='chat2.svg'>
+
+        <div id='correct-feedback2'>
+            <p id='feedback1q2'>You got it! From reading that John was in the bank needing money, you can come to the conclusion that John was more likely to rob the bank than Bob who was asleep!</p>
+        </div>
+        <div id='wrong-feedback2'>
+            <p id='feedback2q2'>Nope! That's not quite right. Since you were told that John was in the bank needing money, Bob who is asleep wouldn't have robbed the bank!</p>
+        </div>
+
+        <button id='to-third-question' onclick='goToInductiveQ3()'>Next Question<i class="material-icons" id='go-arrow'>
+            arrow_forward
+            </i></button>
+        </div>
+        <!-- END OF INDUCTIVE QUESTION 2 -->
+
+
+        <!-- INDUCTIVE QUESTION 3 -->
+        <div id='change-state3'>
+            <div id='behind-video2'>
+                <p id='a-bank'>Perry has a Coke every morning with his breakfast, and later on has a stomach ache.</p><br>
+
+                <hr class='divider'>
+
+                <div id='who-robbed'>What will happen if Perry has a Coke with his breakfast today?</div>
+            </div>
+
+        <button id='choice1' onclick='Correct3()'>
+            <p id='bob' onclick='Correct3()'>Perry will have a stomach ache</p>
+        </button>
+        <i id='check3' class="material-icons">
+            check
+            </i>
+        <button id='choice2' onclick='Incorrect3TopRight()'>
+            <p id='john' onclick='Incorrect3TopRight()'>Perry will fall asleep</p>
+        </button>
+        <i id='xtopright' class="material-icons">
+            close
+            </i>
+            <button id='third-choice' onclick='Incorrect3BottomRight()'>
+                <p id='bob' onclick='Incorrect3BottomRight()'>Perry will start crying</p>
+            </button>
+            <i id='xbottomright' class="material-icons">
+                close
+                </i>
+                <button id='fourth-choice' onclick='Incorrect3BottomLeft()'>
+                    <p id='bob' onclick='Incorrect3BottomLeft()'>Perry will play with his friends</p>
+                </button>
+                <i id='xbottomleft' class="material-icons">
+                    close
+                    </i>
+        
+        <img id='rabbit3' src='bunny.svg'>
+        <img id='rabbit3-good' src='bunny-correct.svg'>
+        <img id='rabbit3-bad' src='bunny-incorrect.svg'>
+        <img id='chat3' src='chat2.svg'>
+
+        <div id='correct-feedback3'>
+            <p id='feedback1q3'>That's it! Since you were told that Perry has a stomach ache everytime he drinks Coke with his breakfast, it makes sense that he will have a stomache ache again today if he has another one!</p>
+        </div>
+        <div id='wrong-feedback3'>
+            <p id='feedback2q3'>Darn! That's not quite right. Since Perry always gets a stomache ache from drinking Coke in the morning, he would probably get another stomache ache today too!</p>
+        </div>
+
+        <button id='to-fourth-question' onclick='goToTransition()'>Next Question<i class="material-icons" id='go-arrow'>
+            arrow_forward
+            </i></button>
+
+        </div>
+        <!-- END OF INDUCTIVE QUESTION 3 -->
+
+
+        <!-- TRANSITION -->
+        <div id='change-state4'>
+            <div id='behind-video2'>
+                <p id='well-done'>Well done! You've finished all the questions on Inductive Reasoning!</p><br>
+
+
+                <div id='you-are'>You are now ready to move on to Deductive Reasoning!</div>
+
+                <button id='to-deductive' onclick='goToDeductive()'>Let's Go!<i class="material-icons" id='go-arrow'>
+                    arrow_forward
+                    </i></button>
+            </div>
+        </div>
+        <!-- END OF TRANSITION -->
+
+        <!-- DEDUCTIVE QUESTION 1 -->
+        <div id='change-state5'>
+            <div id='behind-video3'>
+                <p id='a-bank'>Based on this pattern:</p><br>
+
+                <img id='pattern2' src='deductivepattern1.svg'>
+                <hr class='divider'>
+
+                <div id='who-robbed'>What is the missing shape to fill in the blank?</div>
+                <img id='fill-in-blank' src='deductivepattern2.svg'>
+            </div>
+
+        <button id='circle1' onclick='IncorrectCircle()'>
+            <img id='bob' src='circle.svg' onclick='IncorrectCircle()'>
+        </button>
+        <i id='xcircle' class="material-icons">
+            close
+            </i>
+        <button id='square2' onclick='Correct4()'>
+            <img id='john' src='square.svg' onclick='Correct4()'>
+        </button>
+        <i id='check4' class="material-icons">
+            check
+            </i>
+            <button id='triangle3' onclick='IncorrectTriangle()'>
+                <img id='bob' src='triangle.svg' onclick='IncorrectTriangle()'>
+            </button>
+            <i id='xtriangle' class="material-icons">
+                close
+                </i>
+
+            <img id='rabbit4' src='bunny.svg'>
+            <img id='rabbit4-good' src='bunny-correct.svg'>
+            <img id='rabbit4-bad' src='bunny-incorrect.svg'>
+            <img id='chat4' src='chat2.svg'>
+
+            <div id='correct-feedback4'>
+                <p id='deductivechat1'>That's right! Given the pattern above, you can come to a logical conclusion that a square fills in the blank to match the pattern.</p>
+            </div>
+            <div id='wrong-feedback4'>
+                <p id='deductivechat2'>Uh oh! That's not quite right. By looking at the given pattern, you can logically conclude that a square fills in the blank to match the pattern.</p>
+            </div>
+    
+            <button id='to-fifth-question' onclick='goToDeductiveQ2()'>Next Question<i class="material-icons" id='go-arrow'>
+                arrow_forward
+                </i></button>
+
+        </div>
+
+        <!-- END OF DEDUCTIVE QUESTION 1 -->
+
+        <!-- DEDUCTIVE QUESTION 2 -->
+        <div id='change-state6'>
+            <div id='behind-video4'>
+                <p id='a-bank'>If all dogs that exist are green, that means my dog is:</p>  
+            </div>
+
+            <button id='yellowchoice' onclick='IncorrectYellow()'>
+                <p id='bob' onclick='IncorrectYellow()'>Yellow</p>
+            </button>
+            <i id='xyellow' class="material-icons">
+                close
+                </i>
+            <button id='redchoice' onclick='IncorrectRed()'>
+                <p id='john' onclick='IncorrectRed()'>Red</p>
+            </button>
+            <i id='xred' class="material-icons">
+                close
+                </i>
+                <button id='greenchoice' onclick='Correct5()'>
+                    <p id='bob' onclick='Correct5()'>Green</p>
+                </button>
+                <i id='greencheck' class="material-icons">
+                    check
+                    </i>
+                    <button id='bluechoice' onclick='IncorrectBlue()'>
+                        <p id='bob' onclick='IncorrectBlue()'>Blue</p>
+                    </button>
+                    <i id='xblue' class="material-icons">
+                        close
+                        </i>
+
+                        <img id='rabbit5' src='bunny.svg'>
+                        <img id='rabbit5-good' src='bunny-correct.svg'>
+                        <img id='rabbit5-bad' src='bunny-incorrect.svg'>
+                        <img id='chat5' src='chat2.svg'>
+            
+                        <div id='correct-feedback5'>
+                            <p id='deductivechatq2'>Yup! By following the given statement, you can use your logic and reasoning to then say that your dog must be green!</p>
+                        </div>
+                        <div id='wrong-feedback5'>
+                            <p id='deductivechat2q2'>Not quite! By following the given statement, you can logically conclude that your dog must be green if all dogs are green.</p>
+                        </div>
+                
+                        <button id='to-sixth-question' onclick='goToDeductiveQ3()'>Next Question<i class="material-icons" id='go-arrow'>
+                            arrow_forward
+                            </i></button>
+        </div>
+
+        <!-- END OF DEDUCTIVE QUESTION 2 -->
+
+
+        <!-- DEDUCTIVE QUESTION 3 -->
+        <div id='change-state7'>
+            <div id='behind-video5'>
+                <div id='shirt-para'>
+                    <p id='a-bank'>Tom owns an orange shirt and a red shirt. From this, you can conclude that:</p>  
+                </div>
+                <img id='shirts' src='shirts.svg'>
+            </div>
+
+            <button id='redshirtchoice' onclick='IncorrectRedShirt()'>
+                <p id='bob' onclick='IncorrectRedShirt()'>Tom is wearing a red shirt</p>
+                <img id='redshirt' src='red-shirt.svg'>
+            </button>
+            <i id='xredshirt' class="material-icons">
+                close
+                </i>
+            <button id='dresschoice' onclick='IncorrectDress()'>
+                <p id='john' onclick='IncorrectDress()'>Tom is wearing a dress</p>
+                <img id='dress' src='dress.svg'>
+            </button>
+            <i id='xdress' class="material-icons">
+                close
+                </i>
+                <button id='bothchoice' onclick='Correct6()'>
+                    <p id='bob' onclick='Correct6()'>Tom is wearing either a red or orange shirt</p>
+                    <img id='bothshirts' src='shirts.svg'>
+                </button>
+                <i id='shirtcheck' class="material-icons">
+                    check
+                    </i>
+                    <button id='orangeshirtchoice' onclick='IncorrectOrangeShirt()'>
+                        <p id='bob' onclick='IncorrectOrangeShirt()'>Tom is wearing an orange shirt</p>
+                        <img id='orangeshirt' src='orange-shirt.svg'>
+                    </button>
+                    <i id='xorangeshirt' class="material-icons">
+                        close
+                        </i>
+
+            
+                        <img id='rabbit6' src='bunny.svg'>
+                        <img id='rabbit6-good' src='bunny-correct.svg'>
+                        <img id='rabbit6-bad' src='bunny-incorrect.svg'>
+                        <img id='chat6' src='chat2.svg'>
+            
+                        <div id='correct-feedback6'>
+                            <p id='deductivechatq3'>You got it! From the statement above, you know that Tom must be wearing either of the shirts because that relates to the statement you were given.</p>
+                        </div>
+                        <div id='wrong-feedback6'>
+                            <p id='deductivechat2q3'>Dang, that's not quite right. Since you were told Tom owns both shirts, you can conclude that Tom must be wearing either of them.</p>
+                        </div>
+                
+                        <button id='to-end' onclick='goToFinish()'>Finish<i class="material-icons" id='go-arrow'>
+                            arrow_forward
+                            </i></button>
+
+        </div>
+
+        <!-- END OF DEDUCTIVE QUESTION 3 -->
+
+        <!-- END OF QUESTIONS -->
+
+
+
+        <!-- FINISH PAGE -->
+        <div id='change-state8'>
+            <div id='behind-video6'>
+                <div id='text'>
+                    <p id='you-did-it'>You did it!</p>  
+                    <p id='awesome'>Awesome job! You finished all of the questions!</p>
+
+                    <img id='chat7' src='chat3.svg'>
+                    <img id='rabbit-end-good' src='bunny-correct.svg'>
+                   
+                </div>
+                <div id='end-text-container'>
+                    <p id='end-text'>Yay! There's still come carrot left over for me to eat!</p>
+                </div>
+
+                
+                <button id='to-start' onclick='goToStart()'>Back to Start<i class="material-icons" id='go-arrow'>
+                    arrow_forward
+                    </i></button>
+            
+        </div>
+</div>
+
+        <!-- END OF FINISH PAGE -->
+</div>
+</body>
+</html>
