@@ -1,0 +1,1419 @@
+@media (min-width: 400px){
+    body, html {
+        margin: 0;
+    }
+    #menu {
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-button{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Pangolin', cursive;
+        font-size: 20pt;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        box-shadow: 5px 5px 5px grey;
+    }
+    #intro {
+        background-color: rgb(241, 43, 142);
+        border: 5px solid rgb(185, 5, 104);
+        color: white;
+        z-index: 2;
+        transform: rotate(2deg);
+        transition: 0.4s;
+    }
+    #intro:hover{
+        background-color: rgb(255, 198, 252);
+        color: black;
+    }
+    #inductive{
+        background-color: white;
+        border: 5px solid rgb(48, 32, 184);
+        color: black;
+        transform: rotate(2deg);
+        transition: 0.4s;
+    }
+    #inductive:hover{
+        background-color: rgb(191, 224, 255);
+        color: black;
+    }
+    .lines{
+        border: 0.8px solid rgb(186, 174, 255);
+        background-color: rgb(186, 174, 255);
+        margin-bottom: 36px;
+        opacity: 60%;
+    }
+    #vertical{
+        height: 126vh;
+        width: 0.8px;
+        background-color: rgb(248, 157, 157);
+        position: absolute;
+        left: 10%;
+        top: 0;
+        border: 0.8px solid rgb(248, 157, 157);
+        opacity: 60%;
+        z-index: 1;
+    }
+    .hole{
+      height: 25px;
+      width: 25px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      position: absolute;
+      top: 20%;
+      left: 4%;
+      box-shadow: inset 0px 0px 10px rgba(163, 162, 162, 0.9);
+    }
+    #second{
+        top: 60%;
+    }
+    #third{
+        top: 100%;
+    }
+    #what-is{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        margin-right: 30%;
+        margin-left: 3%;
+        position: relative;
+        z-index: 2;
+    }
+    #behind-video{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 76%;
+        height: 70%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+    }
+    #bar-title{
+        font-family: 'Pangolin', cursive;
+        font-size: 15pt;
+        z-index: 2;
+    }
+    #header-health{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        /* left: 15%;
+        top: 23%; */
+        /* width: 100vw; */
+        /* z-index: 2; */
+        /* height: 20vh; */
+
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        top: 28%;
+        width: 76%;
+        height: 10%;
+        left: 15%;
+        /* z-index: 0; */
+        border: 1px solid rgb(168, 168, 168);
+    }
+    #health-bar{
+        transform: rotate(90deg);
+        position: relative;
+    }
+    #health-bar5{
+        transform: rotate(90deg);
+        position: relative; 
+        display: none; 
+    }
+    #health-bar4{
+        transform: rotate(90deg);
+        position: relative; 
+        display: none; 
+    }
+    #health-bar3{
+        transform: rotate(90deg);
+        position: relative; 
+        display: none; 
+    }
+    #health-bar2{
+        transform: rotate(90deg);
+        position: relative; 
+        display: none; 
+    }
+    #health-bar1{
+        transform: rotate(90deg);
+        position: relative; 
+        display: none; 
+    }
+    #health-bar0{
+        transform: rotate(90deg);
+        position: relative; 
+        display: none; 
+    }
+    #healthbar-container{
+        width: 10vw;
+        position: absolute;
+        left: 80%;
+        display: flex;
+    }
+    #healthbar-container5{
+        position: absolute;
+        width: 10vw;
+        left: 80%;
+        display: flex;
+    }
+    #healthbar-container4{
+        position: absolute;
+        width: 10vw;
+        left: 80%;
+        display: flex;
+    }
+    #healthbar-container3{
+        position: absolute;
+        width: 10vw;
+        left: 80%;
+        display: flex;
+    }
+    #healthbar-container2{
+        position: absolute;
+        width: 10vw;
+        left: 80%;
+        display: flex;
+    }
+    #healthbar-container1{
+        position: absolute;
+        width: 10vw;
+        left: 80%;
+        display: flex;
+    }
+    #healthbar-container0{
+        position: absolute;
+        width: 10vw;
+        left: 80%;
+        display: flex;
+    }
+    #based-on{
+        font-family: 'Pangolin', cursive;
+        font-size: 22pt;
+        position: relative;
+        /* top: 55%;
+        left: 18%; */
+        margin-left: 4%;
+        margin-top: 4%;
+        z-index: 3;
+    }
+    #pattern1{
+        width: auto;
+        height: 50vh;
+        position: relative;
+        left: 15%;
+    }
+    .divider{
+        position: relative;
+        width: 60vw;
+        background-color: rgba(163, 162, 162, 0.9);
+    }
+    #what-is-the{
+        font-family: 'Pangolin', cursive;
+        font-size: 22pt;
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+    #square-choice{
+        position: absolute;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 10%;
+        height: 15%;
+        top: 130%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+        display: flex;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    #square-choice:hover{
+        background-color: rgb(255, 253, 131);
+    }
+    #square{
+        position: relative;
+    }
+    #triangle-choice{
+        position: absolute;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 10%;
+        height: 15%;
+        top: 130%;
+        left: 35%;
+        border: 1px solid rgb(189, 189, 189);
+        display: flex;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    #triangle-choice:hover{
+        background-color: rgb(187, 241, 255);
+    }
+    #triangle{
+        position: relative;
+    }
+    #rabbit{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 10%;
+        top: 125%;
+    }
+    #rabbit-good{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 10%;
+        top: 125%;
+        display: none;
+    }
+    #rabbit-bad{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 10%;
+        top: 125%;
+        display: none;
+    }
+    #chat-box{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        left: 25%;
+        top: 150%;
+        display: none;
+    }
+    #feedback1{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        position: relative;
+        line-height: 57px;
+        display: none;
+    }
+    #correct-feedback{
+        width: 25vw;
+        position: absolute;
+        left: 34%;
+        top: 164%;
+        z-index: 1;
+    }
+    #wrong-feedback{
+        height: 50vh;
+        width: 25vw;
+        position: absolute;
+        left: 34%;
+        top: 164%;
+        z-index: 0;
+    }
+    #feedback2{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        line-height: 57px;
+        position: relative;
+        display: none;
+    }
+    #check{
+        font-size: 40px;
+        position: absolute;
+        top: 130%;
+        left: 27%;
+        color: rgb(1, 136, 1);
+       display: none;
+    }
+    #next{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 40%;
+        top: 200%;
+        display: none;
+    }
+    #go-arrow{
+        font-size: 35px;
+    margin-left: 10px;
+    }
+    #x{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 130%;
+        left: 46%;
+        display: none;
+    }
+    /* TEMPORARY Q1 DISPLAY NONE
+    #change-state1{
+        /* display: none; */
+     
+    
+    #a-bank{
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        margin-left: 4%;
+        line-height: 50px;
+    }
+    #who-robbed{
+        font-family: 'Pangolin', cursive;
+        font-size: 22pt;
+        left: 4%;
+        position: relative;
+        margin-top: 4%;
+    }
+    #behind-video2{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 76%;
+        height: 30%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+    }
+    #bob{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        position: relative;
+        z-index: 1;
+    }
+    #john{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        z-index: 1;
+        position: relative;
+    }
+    #first-choice-behind{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 90%;
+        width: 15%;
+        height: 20%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #choice1{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 90%;
+        width: 15%;
+        height: 20%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #choice1:hover{
+        background-color: rgb(163, 192, 255);
+    }
+    #first-choice-behind:hover{
+        background-color: rgb(163, 192, 255);
+    }
+    #second-choice-behind{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 90%;
+        width: 15%;
+        height: 20%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #choice2{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 90%;
+        width: 15%;
+        height: 20%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #choice2:hover{
+        background-color: rgb(255, 166, 166);
+    }
+    #second-choice-behind:hover{
+        background-color: rgb(255, 166, 166);
+    }
+    #third-choice{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 115%;
+        width: 15%;
+        height: 20%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #third-choice:hover{
+        background-color: rgb(159, 255, 172);
+    }
+    #fourth-choice{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 115%;
+        width: 15%;
+        height: 20%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #fourth-choice:hover{
+        background-color: rgb(255, 253, 131);
+    }
+    #rabbit2{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 7%;
+        top: 90%;
+    }
+    #rabbit3{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 7%;
+        top: 90%;
+    }
+    #chat2{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        left: 20%;
+        top: 120%;
+        display: none;
+    }
+    #chat3{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        left: 27%;
+        top: 133%;
+        display: none;
+    }
+    #rabbit2-good{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 7%;
+        top: 90%;
+        display: none;
+    }
+    #rabbit3-good{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 7%;
+        top: 90%;
+        display: none;
+    }
+    #rabbit2-bad{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 7%;
+        top: 90%;
+        display: none;
+    }
+    #feedback1q2{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        position: relative;
+        line-height: 52px;
+        display: none;
+    }
+    #correct-feedback2{
+        width: 27vw;
+        position: absolute;
+        left: 29%;
+        top: 133%;
+        z-index: 1;
+    }
+    #wrong-feedback2{
+        width: 27vw;
+        position: absolute;
+        left: 29%;
+        top: 133%;
+        z-index: 1;
+    }
+    #feedback2q2{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        position: relative;
+        line-height: 52px;
+        display: none;
+    }
+    #check2{
+        font-size: 40px;
+        position: absolute;
+        top: 90%;
+        left: 56%;
+        color: rgb(1, 136, 1);
+        display: none;
+    }
+    #check3{
+        font-size: 40px;
+        position: absolute;
+        top: 90%;
+        left: 36%;
+        color: rgb(1, 136, 1);
+        display: none;
+    }
+    #x2{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 90%;
+        left: 35.5%;
+        display: none;
+    }
+    #to-third-question{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 40%;
+        top: 170%;
+        display: none;
+    }
+
+    /* TEMPOROARY CHANGE */
+    #change-state3{
+        display: none;
+    }
+    #change-state2{
+        display: none;
+    }
+    /* #change-state1{
+        display: none;
+    } */
+    #change-state4{
+        display: none;
+    }
+    #change-state5{
+        display: none;
+    }
+    #change-state6{
+        display: none;
+    }
+    #change-state7{
+        display: none;
+    }
+    #change-state8{
+        display: none;
+    }
+    
+    #feedback1q3{
+        font-family: 'Pangolin', cursive;
+        font-size: 27pt;
+        position: relative;
+        line-height: 52px;
+        display: none;
+    }
+    #correct-feedback3{
+        width: 30vw;
+        position: absolute;
+        left: 35%;
+        top: 146%;
+        z-index: 1;
+    }
+    #feedback2q3{
+        font-family: 'Pangolin', cursive;
+        font-size: 27pt;
+        position: relative;
+        line-height: 52px;
+        display: none;
+    }
+    #wrong-feedback3{
+        width: 30vw;
+        position: absolute;
+        left: 35%;
+        top: 146%;
+        z-index: 1;
+    }
+    #to-fourth-question{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 40%;
+        top: 180%;
+        display: none;
+    }
+    #xtopright{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 90%;
+        left: 56%;
+        display: none;
+    }
+    #rabbit3-bad{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 7%;
+        top: 90%;
+        display: none;
+    }
+    #xbottomleft{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 115%;
+        left: 35.5%;
+        display: none;
+    }
+    #xbottomright{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 115%;
+        left: 56%;
+        display: none;
+    }
+    #well-done{
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #you-are{
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #to-deductive{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+    #pattern2{
+        width: auto;
+        height: 10vh;
+        position: relative;
+        left: 12%;
+        margin-bottom: 5%;
+    }
+    #behind-video3{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 76%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+    }
+    #fill-in-blank{
+        width: auto;
+        height: 9vh;
+        position: relative;
+        margin-left: 12%;
+        margin-top: 5%;
+    }
+    #circle1{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 110%;
+        width: 15%;
+        height: 15%;
+        left: 15%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #circle1:hover{
+        background-color: rgb(163, 192, 255);
+    }
+    #square2{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 110%;
+        width: 15%;
+        height: 15%;
+        left: 32%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #square2:hover{
+        background-color: rgb(255, 166, 166);
+    }
+    #triangle3{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 110%;
+        width: 15%;
+        height: 15%;
+        left: 49%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #triangle3:hover{
+        background-color: rgb(159, 255, 172);
+    }
+    #rabbit4{
+        height: 40vh;
+        width: auto;
+        position: absolute;
+        right: 0%;
+        top: 105%;
+    }
+    #rabbit4-good{
+        height: 40vh;
+        width: auto;
+        position: absolute;
+        right: 0%;
+        top: 105%;
+        display: none;
+    }
+    #rabbit4-bad{
+        height: 40vh;
+        width: auto;
+        position: absolute;
+        right: 0%;
+        top: 105%;
+        display: none;
+    }
+    #chat4{
+        height: 40vh;
+        width: auto;
+        position: absolute;
+        left: 27%;
+        top: 130%;
+        display: none;
+    }
+    #correct-feedback4{
+        width: 30vw;
+        position: absolute;
+        left: 36%;
+        top: 142%;
+    }
+    #deductivechat1{
+        font-family: 'Pangolin', cursive;
+        font-size: 24pt;
+        position: relative;
+        line-height: 45px;
+        display: none;
+    }
+    #wrong-feedback4{
+        width: 30vw;
+        position: absolute;
+        left: 36%;
+        top: 142%;
+    }
+    #deductivechat2{
+        font-family: 'Pangolin', cursive;
+        font-size: 24pt;
+        position: relative;
+        line-height: 45px;
+        display: none;
+    }
+    #check4{
+        font-size: 40px;
+        position: absolute;
+        top: 107%;
+        left: 44%;
+        color: rgb(1, 136, 1);
+        display: none;
+    }
+    #xcircle{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 107%;
+        left: 26%;
+        display: none;
+    }
+    #xtriangle{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 107%;
+        left: 60%; 
+        display: none;
+    }
+    #to-fifth-question{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 40%;
+        top: 170%;
+        display: none;
+    }
+    #deductive-title{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        margin-right: 30%;
+        margin-left: 3%;
+        position: relative;
+        z-index: 2;
+        display: none;
+    }
+    #behind-video4{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 76%;
+        height: 10%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+    }
+    #yellowchoice{
+        background-color: rgb(254, 255, 174);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 70%;
+        width: 15%;
+        height: 20%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #yellowchoice:hover{
+        background-color: rgb(252, 248, 11);
+    }
+    #redchoice{
+        background-color: rgb(255, 183, 183);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 70%;
+        width: 15%;
+        height: 20%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #redchoice:hover{
+        background-color: rgb(231, 19, 19);
+        color: white;
+    }
+    #greenchoice{
+        background-color: rgb(200, 255, 174);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 95%;
+        width: 15%;
+        height: 20%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #greenchoice:hover{
+        background-color: rgb(46, 228, 10);
+    }
+    #bluechoice{
+        background-color: rgb(191, 201, 255);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 95%;
+        width: 15%;
+        height: 20%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #bluechoice:hover{
+        background-color: rgb(15, 88, 224);
+        color: white;
+    }
+    #greencheck{
+        font-size: 40px;
+        position: absolute;
+        top: 95%;
+        left: 56%;
+        color: rgb(1, 136, 1);
+        display: none;
+    }
+    #rabbit5{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 3%;
+        top: 70%;
+    }
+    #chat5{
+        height: 45vh;
+        width: auto;
+        position: absolute;
+        left: 27%;
+        top: 115%;
+        display: none;
+    }
+    #rabbit5-good{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 3%;
+        top: 70%;
+        display: none;
+    }
+    #rabbit5-bad{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 3%;
+        top: 70%;
+        display: none;
+    }
+    #deductivechatq2{
+        font-family: 'Pangolin', cursive;
+        font-size: 24pt;
+        position: relative;
+        line-height: 45px;
+        display: none;
+    }
+    #correct-feedback5{
+        width: 30vw;
+        position: absolute;
+        left: 35%;
+        top: 130%;
+    }
+    #wrong-feedback5{
+        width: 30vw;
+        position: absolute;
+        left: 35%;
+        top: 130%;
+    }
+    #deductivechat2q2{
+        font-family: 'Pangolin', cursive;
+        font-size: 24pt;
+        position: relative;
+        line-height: 45px;
+        display: none;
+    }
+    #xyellow{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 70%;
+        left: 35.5%;
+        display: none;
+    }
+    #xred{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 70%;
+        left: 56%;
+        display: none;
+    }
+    #xblue{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 95%;
+        left: 35.5%;
+        display: none;
+    }
+    #to-sixth-question{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 40%;
+        top: 160%;
+        display: none;
+    }
+    #shirt-para{
+        width: 30vw;
+        margin-left: 4%;
+    }
+    #behind-video5{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 76%;
+        height: 40%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+        display: flex;
+    }
+    #shirts{
+        height: 35vh;
+        position: relative;
+    }
+    #redshirtchoice{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 95%;
+        width: 15%;
+        height: 20%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+        display: flex;
+    }
+    #redshirtchoice:hover{
+        background-color: rgb(187, 205, 255);
+    }
+    #redshirt{
+        height: 6vh;
+        margin-top: 25%;
+        transform: rotate(15deg);
+    }
+    #dresschoice{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 95%;
+        width: 15%;
+        height: 20%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+        display: flex;
+    }
+    #dresschoice:hover{
+        background-color: rgb(219, 235, 174);
+    }
+    #dress{
+        height: 8vh;
+        margin-top: 25%;
+        transform: rotate(-12deg);
+    }
+    #bothchoice{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 120%;
+        width: 25%;
+        height: 25%;
+        left: 40%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+        display: flex;
+    }
+    #bothchoice:hover{
+        background-color: rgb(204, 247, 255);
+    }
+    #bothshirts{
+        height: 8vh;
+        margin-top: 25%;
+        transform: rotate(-12deg);
+    }
+    #orangeshirtchoice{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        position: absolute;
+        top: 120%;
+        width: 15%;
+        height: 25%;
+        left: 20%;
+        border: 1px solid rgb(168, 168, 168);
+        z-index: 0;
+        cursor: pointer;
+        transition: 0.4s;
+        display: flex;
+    }
+    #orangeshirtchoice:hover{
+        background-color: rgb(210, 255, 198);
+    }
+    #orangeshirt{
+        height: 7vh;
+        margin-top: 25%;
+        transform: rotate(-12deg);
+    }
+    #rabbit6{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 3%;
+        top: 110%;
+    }
+    #rabbit6-good{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 3%;
+        top: 110%;
+        display: none;
+    }
+    #rabbit6-bad{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        right: 3%;
+        top: 110%;
+        display: none;
+    }
+    #chat6{
+        height: 45vh;
+        width: auto;
+        position: absolute;
+        left: 38%;
+        top: 146%;
+        display: none;
+    }
+    #correct-feedback6{
+        width: 25vw;
+        position: absolute;
+        left: 45%;
+        top: 158%;
+    }
+    #deductivechatq3{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        position: relative;
+        line-height: 45px;
+        display: none;
+    }
+    #wrong-feedback6{
+        width: 25vw;
+        position: absolute;
+        left: 45%;
+        top: 158%;
+    }
+    #deductivechat2q3{
+        font-family: 'Pangolin', cursive;
+        font-size: 28pt;
+        position: relative;
+        line-height: 45px;
+        display: none;
+    }
+    #to-end{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 45%;
+        top: 190%;
+        display: none;
+    }
+    #shirtcheck{
+        font-size: 40px;
+        position: absolute;
+        top: 120%;
+        right: 32%;
+        color: rgb(1, 136, 1);
+        display: none;
+    }
+    #xredshirt{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 93%;
+        left: 35.5%;
+        display: none;
+    }
+    #xorangeshirt{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 120%;
+        left: 35.5%;
+        display: none;
+    }
+    #xdress{
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        top: 93%;
+        left: 56%;
+        display: none;
+    }
+    #behind-video6{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 76%;
+        height: 80%;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        border: 1px solid rgb(189, 189, 189);
+        display: flex;
+    }
+    #you-did-it{
+        font-family: 'Pangolin', cursive;
+        font-size: 45pt;
+        margin-left: 4%;
+        line-height: 50px;
+    }
+    #awesome{
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        margin-left: 4%;
+        line-height: 50px;
+        display: flex;
+        justify-items: center;
+    }
+    #rabbit-end-good{
+        height: 40vh;
+        position: relative;
+        left: 30%;
+    }
+    #chat7{
+        height: 25vh;
+        width: auto;
+        position: relative;
+        left: 30%;
+        margin-bottom: 20%;
+    }
+    #text{
+        width: 100vw;
+    }
+    #end-text{
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        position: absolute;
+        left: 40%;
+    }
+    #end-text-container{
+        width: 32vw;
+        position: absolute;
+        top: 29%;
+        left: 15%;
+    }
+    #to-start{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
+        position: absolute;
+        left: 35%;
+        top: 110%;
+    }
+   
+}
