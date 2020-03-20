@@ -1516,6 +1516,8 @@
             font-family: 'Pangolin', cursive;
             font-size: 14pt;
             z-index: 2;
+            margin-left: -41%;
+            margin-bottom: 20%;
         }
         #header-health{
             display: flex;
@@ -1540,7 +1542,6 @@
         #health-bar{
             transform: rotate(90deg);
             position: relative;
-            left: -50px;
         }
         #health-bar5{
             transform: rotate(90deg);
@@ -1574,9 +1575,9 @@
         }
         #healthbar-container{
             position: absolute;
-            left: 67%;
+            left: 50%;
             display: inline-flex;
-            top: -10px;
+            top: 18px;
         }
         #healthbar-container5{
             position: absolute;
@@ -2354,7 +2355,7 @@
         }
         #deductive-title{
             font-family: 'Pangolin', cursive;
-            font-size: 98pt;
+            font-size: 20pt;
             margin-right: 30%;
             margin-left: 3%;
             position: relative;
@@ -2557,7 +2558,7 @@
             border-radius: 10px;
             box-shadow: 3px 3px 5px rgb(189, 189, 189);
             width: 76%;
-            height: 40%;
+            height: 50%;
             position: absolute;
             top: 40%;
             left: 15%;
@@ -2567,6 +2568,8 @@
         #shirts{
             height: 5vh;
             position: relative;
+            top: 80%;
+            right: 40%;
         }
         #redshirtchoice{
             background-color: white;

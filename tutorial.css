@@ -95,7 +95,7 @@ body, html {
     justify-content: center;
     align-items: center;
 }
-#behind-title{
+#le{
     background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(189, 189, 189);
@@ -139,15 +139,7 @@ body, html {
 }
 }
 
-@media (min-width: 400px) and (max-width: 720px){
-    #what-is{
-        font-family: 'Pangolin', cursive;
-        font-size: 18pt;
-        position: absolute;
-        margin-top: 4%;
-    }
-}
-
+ 
 @media (max-width: 400px){
     body, html {
             margin: 0;
@@ -227,7 +219,7 @@ body, html {
         }
         #what-is{
             font-family: 'Pangolin', cursive;
-            font-size: 20pt;
+            font-size: 18pt;
             margin-right: 30%;
             margin-left: 3%;
             position: relative;
@@ -1364,11 +1356,6 @@ body, html {
         #bothchoice:hover{
             background-color: rgb(204, 247, 255);
         }
-        #bothshirts{
-            height: 8vh;
-            margin-top: 25%;
-            transform: rotate(-12deg);
-        }
         #orangeshirtchoice{
             background-color: white;
             border-radius: 10px;
@@ -1568,4 +1555,42 @@ body, html {
             left: 17%;
             top: 250%;
         }
+        #tutorial-video{
+            display: flex;
+            margin-top: 16%;
+            margin-left: 8%;
+            width: 85%;
+            height: 80%;
+        }
+        
+    }  
+    #lets-go{
+        background-color: rgb(25, 206, 49);
+        border-radius: 40px;
+        border: 5px solid rgb(4, 136, 11);
+        font-family: 'Pangolin', cursive;
+        font-size: 25pt;
+        padding: 10px 35px 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 5px rgb(134, 134, 134);
+        cursor: pointer;
     }
+
+    #behind-title{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(189, 189, 189);
+        width: 70%;
+        height: 12%;
+        position: absolute;
+        top: 20%;
+        left: 19%;
+        border: 1px solid rgb(189, 189, 189);
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    

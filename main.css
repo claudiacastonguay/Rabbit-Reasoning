@@ -1331,6 +1331,9 @@ body, html {
         #redshirtchoice:hover{
             background-color: rgb(187, 205, 255);
         }
+        .redshirt{
+            margin-left: 30%;
+        }
         #redshirt{
             height: 6vh;
             margin-top: 25%;
@@ -1376,11 +1379,6 @@ body, html {
         }
         #bothchoice:hover{
             background-color: rgb(204, 247, 255);
-        }
-        #bothshirts{
-            height: 8vh;
-            margin-top: 25%;
-            transform: rotate(-12deg);
         }
         #orangeshirtchoice{
             background-color: white;
@@ -1581,4 +1579,15 @@ body, html {
             left: 17%;
             top: 250%;
         }
+        #go-arrow{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+        #go-button{
+            position: absolute;
+            top: 0%;
+            left: 40%;
+        }
+        
     }
+
