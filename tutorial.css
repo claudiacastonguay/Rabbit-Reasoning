@@ -134,8 +134,20 @@ body, html {
 }
 #tutorial-video{
     display: flex;
+    width: 80%;
+    height: 80%;
 }
 }
+
+@media (min-width: 400px) and (max-width: 720px){
+    #what-is{
+        font-family: 'Pangolin', cursive;
+        font-size: 18pt;
+        position: absolute;
+        margin-top: 4%;
+    }
+}
+
 @media (max-width: 400px){
     body, html {
             margin: 0;
