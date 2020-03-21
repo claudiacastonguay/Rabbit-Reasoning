@@ -1,0 +1,13 @@
+Start on the index.html page to begin the app. This will take you through the app in the correct order, so there's no need to directly open
+the questions.html or tutorial.html pages.
+
+
+-------------------------------------------------------------------------------------------
+
+Here are the following contributions made by everyone in the team:
+
+Claudia - Created desktop mode
+Mathieu - Created all graphics, the video tutorial, and tablet mode for tutorial page and home page
+Tanisha - Created mobile mode
+
+-------------------------------------------------------------------------------------------
